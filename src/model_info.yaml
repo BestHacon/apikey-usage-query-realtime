@@ -1,0 +1,66 @@
+#
+# -*- coding:utf-8 -*-
+# @IDE       :PyCharm
+# @Project   :apikey_query
+# @FileName  :model_info.yaml
+# @Time      :2025/2/24 14:58
+# @Author    :Hacon
+
+
+# LLM Pricing
+unit: 1000000  # per 1 Million tokens in USD
+
+# Reference https://platform.openai.com/docs/pricing
+OpenAIChat:
+  "o3-mini-2025-01-31":
+    input: 1.10
+    output: 4.40
+  "o1-2024-12-17":
+    input: 15.00
+    output: 60.00
+  "o1-mini-2024-09-12":
+    input: 1.10
+    output: 4.40
+  "gpt-4o-mini-2024-07-18":
+    input: 0.15
+    output: 0.6
+  "gpt-4o-2024-11-20":
+    input: 2.50
+    output: 10.00
+  "gpt-4o-2024-08-06":
+    input: 2.50
+    output: 10.00
+  "gpt-4o-2024-05-13":
+    input: 5.00
+    output: 15.00
+
+# Reference https://platform.openai.com/docs/pricing#embeddings
+OpenAIEmbeddings:
+  "text-embedding-3-large":
+    input: 0.130
+  "text-embedding-3-small":
+    input: 0.020
+
+# Reference https://ai.google.dev/gemini-api/docs/pricing
+GoogleGemini:
+  "gemini-2.0-flash":
+    input: 0.10
+    output: 0.40
+  "gemini-1.5-flash":
+    input: 0.075
+    output: 0.30
+  "gemini-1.5-flash128k":  # prompts > 128k tokens
+    input: 0.15
+    output: 0.60
+  "gemini-1.5-pro":
+    input: 1.25
+    output: 5.00
+  "gemini-1.5-pro128k":  # prompts > 128k tokens
+    input: 2.5
+    output: 10.00
+
+
+
+
+
+

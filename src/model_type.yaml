@@ -1,0 +1,14 @@
+#
+# -*- coding:utf-8 -*-
+# @IDE       :PyCharm
+# @Project   :apikey_query
+# @FileName  :model_info.yaml
+# @Time      :2025/2/24 15:36
+# @Author    :Hacon
+
+
+# Model Type for LLM
+ChatCompletion: "OpenAIChat"
+GenerateContentResponse: "GoogleGemini"
+
+
